@@ -1,3 +1,4 @@
+package heatmap;
 import javax.swing.*;
 import java.awt.*;
 
