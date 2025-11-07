@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.io.File;
 import javax.swing.*;
 
 public class Main {
@@ -39,11 +40,11 @@ public class Main {
         heatmap.printHeatmap();
 
         // Visually displays the heatmap
-        JFrame frame = new JFrame("My Heatmap");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add(new HeatmapViewer(heatmap)); // Change which heatmap you want to view here
-        frame.pack();
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        // JFrame frame = new JFrame("My Heatmap");
+        // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // frame.add(new HeatmapViewer(heatmap)); // Change which heatmap you want to view here
+        // frame.pack();
+        // frame.setLocationRelativeTo(null);
+        // frame.setVisible(true);
     }
 }
