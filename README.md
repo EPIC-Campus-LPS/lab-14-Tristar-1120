@@ -143,6 +143,7 @@ This board is Valid.
 Create a new static method in `Validate` called `balanced(String[][] board)`. This will return `True` if each row and column contain only 0-2 ships.
 
 For example:
+
 ```
 0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0
